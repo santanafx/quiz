@@ -1,0 +1,27 @@
+.gameOverContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30vh;
+}
+
+button {
+    padding: 0.3rem 3rem;
+    border-radius: 20px;
+    border-style: none;
+    background: linear-gradient(90deg,
+            rgb(160, 160, 160) 0%,
+            rgb(255, 255, 255) 100%);
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background: linear-gradient(90deg,
+            rgb(255, 255, 255) 0%,
+            rgb(160, 160, 160) 100%);
+
+}

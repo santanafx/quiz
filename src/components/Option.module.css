@@ -1,0 +1,13 @@
+.options {
+    cursor: pointer;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.options:hover {
+    background-color: grey;
+
+}
